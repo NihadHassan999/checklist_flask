@@ -1,0 +1,44 @@
+/* Center and style the main content */
+.container {
+    max-width: 600px;
+    background-color: #2c2f33;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Customize the checklist items */
+.list-group-item {
+    background-color: #3a3f44;
+    color: #ffffff;
+    border: 1px solid #4a4e54;
+}
+
+/* Change checkbox color */
+.list-group-item input[type="checkbox"] {
+    accent-color: #0d6efd; /* Custom checkbox color */
+}
+
+/* Style the save button */
+.btn-primary {
+    background-color: #1d72b8;
+    border-color: #1d72b8;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #155a8a;
+    border-color: #155a8a;
+}
+
+/* Center text and adjust font color */
+.text-center {
+    color: #d3d3d3;
+}
+
+/* Optional: Darken the form’s background */
+form {
+    background-color: #2c2f33;
+    padding: 15px;
+    border-radius: 8px;
+}
