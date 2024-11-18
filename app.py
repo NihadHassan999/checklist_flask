@@ -4,7 +4,14 @@ import datetime
 app = Flask(__name__)
 
 # Default todo list items
-todo_items = ["DSA", "Numpy", "Java", "System Design"]
+todo_items = [
+    "DSA 1", 
+    "DSA 2",
+    "DSA 3",
+    "Numpy", 
+    "Java", 
+    "System Design"
+    ]
 
 # Store each day's checklist status
 checklist_status = {}
